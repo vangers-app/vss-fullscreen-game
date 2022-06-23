@@ -27,7 +27,7 @@ yarn.
 3. tsc will build js into **build** directory
 4. Run the game with following args `vangers -vss <path-to-build-directory>`
 
-**NOTE:** Vangers support hot-reload, to reload scrips press F8 when you on road.
+**NOTE:** Vangers support hot-reload, to reload scrips press F8 when you on a road.
 
 ## How to publish
 
