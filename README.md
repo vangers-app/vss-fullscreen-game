@@ -4,7 +4,7 @@
 This repository contains addon for Vangers that makes game use fullscreen map mode
 by default.
 
-This repository also is a template repository, so you can make you own repository
+**This repository also is a template repository**, so you can make you own repository
 from it. Its useful if you want to develop your own addon.
 
 ## Project structure
