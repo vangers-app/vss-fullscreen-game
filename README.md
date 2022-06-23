@@ -1,4 +1,5 @@
 # Fullscreen game addon
+[![Node.js CI](https://github.com/vangers-app/vss-fullscreen-game/actions/workflows/release.yml/badge.svg)](https://github.com/vangers-app/vss-fullscreen-game/actions/workflows/release.yml)
 
 This repository contains addon for Vangers that makes game use fullscreen map mode
 by default.
@@ -28,10 +29,16 @@ NOTE: Vangers support hot-reload, to reload scrips press F8 when you on road.
 ## How to publish
 
 If you used this repository as template, then you have configured action that will
-publish builded addon into releases page on github.
+publish builded addon into releases page on github. TO do that you need to create a
+tag and push it to github.
 
-Download the release archive and extract it somewhere, then you can start vangers
-with -vss flag:
+```
+git tag v1.0
+git push origin v1.0
+```
+
+After that release will appear on releases page. Download the release archive and extract it somewhere, 
+then you can start vangers with `-vss` flag:
 
 `vangers -vss <path-to-extracted-release>`
 
