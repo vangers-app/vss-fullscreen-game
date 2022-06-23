@@ -14,6 +14,9 @@ from it. Its useful if you want to develop your own addon.
 * **vss.ts** - is a `vss` module provided by game. This API you should use to interact with game
 * **vss-fullscreen-game.ts** - is a addon it self
 
+**NOTE:** `main.ts` and `vss.ts` are same for all addons and taken from [vangers repository](https://github.com/vangers-app/vangers-android-cpp/tree/vandroid/scripting/src).
+**Keep them up to date.**
+
 ## How to develop
 
 You need to install **node.js** with **npm** or **yarn**. We suppose that you will use
@@ -44,4 +47,4 @@ then you can start vangers with `-vss` flag:
 
 ## Documentation
 
-Please read [documentation](https://github.com/caiiiycuk/vangers-web/blob/vandroid/scripting/README.md) from vangers repository.
+Please read [documentation](https://github.com/vangers-app/vangers-android-cpp/blob/vandroid/scripting/README.md) from vangers repository.
