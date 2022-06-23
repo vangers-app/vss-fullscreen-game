@@ -11,12 +11,12 @@ from it. Its useful if you want to develop your own addon.
 
 `src` folder contains source code of addon:
 * **main.ts** - is a standard loader from vangers repository, you should not change it
-* **vss.ts** - is a modulve with vss API, you should not change it
-* **vss-fullscreen-game.ts** - is a plugin it self
+* **vss.ts** - is a `vss` module provided by game. This API you should use to interact with game
+* **vss-fullscreen-game.ts** - is a addon it self
 
 ## How to develop
 
-You need to install **node.js** withn **npm** or **yarn**. We suppose that you will use
+You need to install **node.js** with **npm** or **yarn**. We suppose that you will use
 yarn. 
 
 1. Install dependencies by calling `yarn install`
@@ -24,12 +24,12 @@ yarn.
 3. tsc will build js into **build** directory
 4. Run the game with following args `vangers -vss <path-to-build-directory>`
 
-NOTE: Vangers support hot-reload, to reload scrips press F8 when you on road.
+**NOTE:** Vangers support hot-reload, to reload scrips press F8 when you on road.
 
 ## How to publish
 
 If you used this repository as template, then you have configured action that will
-publish builded addon into releases page on github. TO do that you need to create a
+publish builded addon into releases page on github. To do a release you need to create a
 tag and push it to github.
 
 ```
